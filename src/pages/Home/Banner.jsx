@@ -1,30 +1,23 @@
 import React from 'react';
-import bannerImage from '../banner.jpg'; // Replace with your image
-
-
 
 const Banner = () => {
     return (
-        <div>
-            <section className="bg-[#e4d3c9] py-10 px-10">
-                 <div>
-                     <div className='  grid grid-cols-[70%_30%]'> 
-                       <div className=' bg-white '>
-                         <div className='w-1/2 py-5 px-10'>
-                         <h2 className='text-2xl font-bold py-10'>We Create  Websites</h2> 
-                       <p className=''>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                        <p className='py-5'>Using React, NextJS and ExpressJS</p>
-                       <button className='btn btn-neutral mt-4'>ViEW PORTFOLIO </button>
-                      
-                         </div>
-                       </div> 
-                       <div>
+        <div className='bg-[#e4d3c9] py-24   '>
 
-                       </div>
-                     </div>
-                 </div>
-            </section>
+            <div className='grid grid-cols-1 md:grid-cols-[60%_40%]'>
+                <div className=' bg-white ml-10 '>
+
+                    <div className='w-1/2  p-5'>
+                    <h1 className='text-2xl font-bold '>We Create Websites</h1>
+                     <p className='py-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam sit illum sed inventore. Vitae maiores, veritatis quia eveniet fuga doloribus officiis ullam culpa architecto vero doloremque amet quasi neque corrupti.</p>
+                     <p className='py-4'>We are updating</p>
+                     <button className='border-2 rounded-xl bg-black text-white px-10 py-5 uppercase'>View Portfolio</button>
+                    
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     );
 };
