@@ -6,7 +6,7 @@ import bannerImage from '../banner.jpg'; // Replace with your image
 const Banner = () => {
     return (
         <div>
-            <section className="bg-[#e4d3c9] py-16 px-4">
+            <section className="bg-[#e4d3c9] py-10 px-10">
                  <div>
                      <div className='  grid grid-cols-[70%_30%]'> 
                        <div className=' bg-white '>
