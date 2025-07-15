@@ -7,6 +7,7 @@ import Construction from './Construction/Construction';
 import WhatWeDo from './WhatWeDo/WhatWeDo';
 import Mockup from './Mockup/Mockup';
 import Experience from './Experience/Experience';
+import Contact from './Contact/Contact';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                 <WhatWeDo></WhatWeDo>
                 <Mockup></Mockup>
                 <Experience></Experience>
+                <Contact></Contact>
         </div>
     );
 };
