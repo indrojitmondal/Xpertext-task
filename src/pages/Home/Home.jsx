@@ -6,6 +6,7 @@ import Brand from './Brand/Brand';
 import Construction from './Construction/Construction';
 import WhatWeDo from './WhatWeDo/WhatWeDo';
 import Mockup from './Mockup/Mockup';
+import Experience from './Experience/Experience';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                 <Construction></Construction>
                 <WhatWeDo></WhatWeDo>
                 <Mockup></Mockup>
+                <Experience></Experience>
         </div>
     );
 };
