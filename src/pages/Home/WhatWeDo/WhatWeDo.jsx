@@ -3,9 +3,9 @@ import React from 'react';
 const WhatWeDo = () => {
     return (
         <div className='bg-[#000000]'>
-            <div className='px-10 pb-6 '>
+            <div className='px-10 pb-10 '>
 
-                <h2 className='text-center py-6 text-2xl text-[#E6A919]'>What We Do</h2>
+                <h2 className='text-center py-10 text-2xl text-[#E6A919]'>What We Do</h2>
 
                 <div className='grid grid-cols-1 md:grid-cols-3'>
 
