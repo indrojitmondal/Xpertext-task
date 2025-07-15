@@ -16,6 +16,24 @@ const Banner = () => {
                     </div>
 
                 </div>
+
+                <div>
+
+                    <div>
+                        <img src="/bg1.jpg" alt="" />
+                    </div>
+    
+                    
+            
+                    <div> 
+                        <img src="/man.png" alt="man" /> 
+                        <img src="/man2.png" alt="man2" />
+                    <img className='-rotate-90'  src="/pen.png" alt="pen" />
+                
+                    </div>
+                
+                </div>
+
             </div>
 
         </div>
