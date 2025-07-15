@@ -2,7 +2,7 @@ import React from 'react';
 import bg from './bg1.jpg'
 const Contact = () => {
     return (
-        <div className='bg-[#DCCEC5] grid grid-cols-1 md:grid-cols-[40%_60%] pl-10 py-28'>
+        <div className='bg-[#DCCEC5] grid grid-cols-1 md:grid-cols-[40%_60%] pl-10 pt-28'>
 
           
             <div className='bg-white p-10'>

@@ -11,7 +11,7 @@ const Banner = () => {
                      <div className='  grid grid-cols-[70%_30%]'> 
                        <div className=' bg-white '>
                          <div className='w-1/2 py-5 px-10'>
-                         <h2 className='text-2xl font-bold py-10'>We Create Websites</h2> 
+                         <h2 className='text-2xl font-bold py-10'>We Create  Websites</h2> 
                        <p className=''>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
                         <p className='py-5'>Using React, NextJS and ExpressJS</p>

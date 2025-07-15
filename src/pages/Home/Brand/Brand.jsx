@@ -5,7 +5,7 @@ import three from './3.jpg'
 
 const Brand = () => {
     return (
-        <div className='bg-[#e4d3c9] relative py-10 px-10'>
+        <div className='bg-[#e4d3c9] md:relative py-10 px-10'>
             <div className=' grid grid-cols-1 md:grid-cols-2 '>
 
                 <div>
@@ -18,7 +18,7 @@ const Brand = () => {
 
             </div>
 
-            <div className='bg-black w-96 absolute top-1/3  right-1/3'> 
+            <div className='bg-black w-96 md:absolute md:top-1/3  md:right-1/3'> 
                 <div className=' text-white px-10 '>
                       <h1 className='text-4xl text-center pt-4'>  Brand Values</h1>
                        <p className='py-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero voluptates et deleniti beatae, dolor id atque nostrum quas ea!</p>
