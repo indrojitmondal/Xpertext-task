@@ -2,10 +2,12 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='bg-[#e4d3c9] py-24   '>
+        <div className='bg-[#e4d3c9] pt-80   '>
 
-            <div className='grid grid-cols-1 md:grid-cols-[60%_40%]'>
-                <div className=' bg-white ml-10 '>
+            {/* <img src="/task.jpg" alt="" /> */}
+
+            <div className=' relative'>
+                <div className=' bg-white ml-10 w-1/2'>
 
                     <div className='w-1/2  p-5'>
                     <h1 className='text-2xl font-bold '>We Create Websites</h1>
@@ -17,21 +19,25 @@ const Banner = () => {
 
                 </div>
 
-                <div>
+                <div className=' '>
 
-                    <div>
-                        <img src="/bg1.jpg" alt="" />
+                    <div className='h-[300px] w-[500px] absolute left-1/3 -top-20'>
+                        <img className='h-full w-full' src="/bg1.jpg" alt="" />
                     </div>
     
                     
             
-                    <div> 
+                    <div className='h-[300px] bg-[#C8BBB4] z-20 w-[480px] p-10  absolute -top-36 left-[600px]  grid grid-cols-3'> 
                         <img src="/man.png" alt="man" /> 
                         <img src="/man2.png" alt="man2" />
                     <img className='-rotate-90'  src="/pen.png" alt="pen" />
                 
                     </div>
                 
+                </div>
+
+                <div className='bg-[#F0A901] absolute z-10 left-[700px] -top-60 w-[400px] h-[500px]'>
+
                 </div>
 
             </div>

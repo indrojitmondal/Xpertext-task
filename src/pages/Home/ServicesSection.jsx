@@ -11,7 +11,7 @@ const services = [
         contentBg: '',
     },
     {
-        icon: <FaPaintBrush size={28} className="text-white bg-orange-500 p-1 rounded-full" />,
+        icon: <FaPaintBrush size={28} className="text-white bg-[#F0A901] p-1 rounded-full" />,
         title: 'BRANDING',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.',
         bg: 'bg-white',
@@ -30,14 +30,14 @@ const services = [
         icon: <FaLaptopCode size={28} className="text-white" />,
         title: 'WEB DESIGN',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.',
-        bg: 'bg-orange-500',
+        bg: 'bg-[#F0A901]',
         text: 'text-white',
-        contentBg: 'bg-orange-500',
+        contentBg: 'bg-[#F0A901]',
     },
 ];
 const ServicesSection = () => {
     return (
-        <div>
+        <div className=''>
             <section className="bg-[#e4d3c9] py-16">
                 <div className="max-w-6xl mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-4">Epic design and engineering</h2>
